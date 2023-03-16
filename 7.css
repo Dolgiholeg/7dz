@@ -1,0 +1,29 @@
+
+#temi {
+    display: block;
+    margin: 100px 510px;border:5px solid green;border-radius: 100%;
+}
+#ms{
+    display: block;width: 100px;height: 10px;background-color: red; position: absolute;
+    margin-left: 150px; margin-top:  -260px;animation: anim1 60s infinite; transform-origin: 100px 5px;
+}
+@keyframes anim1 {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+#s{
+    display: block;width: 150px;height: 10px;background-color: blue; position: absolute;
+    margin-left: 100px; margin-top:  -260px;animation: anim2 1s infinite; transform-origin: 150px 5px;
+}
+@keyframes anim2 {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
